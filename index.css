@@ -1,12 +1,15 @@
-@import url('https://fonts.cdnfonts.com/css/atteron-personal-use');
 @import url('https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&display=swap');
+@font-face {
+    font-family: myFont;
+    src: url(Assets/Atteron.ttf);
+}
 *{
     margin: 0;
     padding: 0;
 }
 
 body {
-    font-family: 'Atteron Personal Use', 'Atteron', 'arial';
+    font-family: 'myFont', 'Atteron', 'arial';
 }
 
 .title {
@@ -203,7 +206,7 @@ p {
 }
 
 .copyright {
-    font-family: 'Atteron Personal Use';
+    font-family: 'myFont';
 }
 
 .copyright .date{
